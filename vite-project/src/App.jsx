@@ -6,7 +6,8 @@ function App() {
   let [count, setCount] = useState(10)
   // let count = 0;
   const addCounter = () => {
-    setCount(count++)
+    count = count+1
+    setCount(count)
   }
 
   const deleteCounter = () => {
